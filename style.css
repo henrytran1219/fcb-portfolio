@@ -1,0 +1,66 @@
+/* cach de target moi thu tu html de styling 
+selector (*) {
+    css-property1: value;
+    css-property2: value;
+    css-property3: value;
+}
+sans-serif: is the backup font while roboto goes down, the link is broken
+luu y viec bi overlap giua cac pham vi - CSS Specificity Rule: the more specific, the more applicable; the bottom most; Determines which rule to priorities, depending on general vs specific
+Dau # dung cho id
+Dau . dung cho class
+*/
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    height: 250px;
+    width: 350px;
+}
+
+#landing{
+    height: 80vh;
+    /* vh = viewport height = screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+#gallery{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h2{
+    color: #007bff;
+}
+
+.tools{
+    padding: 25px;
+    height: 200px;
+    border: 5px dashed #f2f2f2;
+    margin: 20px;
+    width: 75%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
